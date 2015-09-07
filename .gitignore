@@ -1,0 +1,19 @@
+# Emacs backup files
+*.~*~
+\#*\#
+# Emacs backups of hidden files, like ".gitignore.~3~"
+.*.~*~
+.\#*
+
+# R stuff
+.RData
+.Rhistory
+R.Rproj
+.Rproj.user
+
+# Files for this project
+dfSubset.RData
+household_power_consumption.txt
+household_power_consumption.zip
+
+
