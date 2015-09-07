@@ -43,7 +43,7 @@ if (file.exists(dfSubsetFile)) {
 
 # make the plot
 # open png device
-png("plot2.png")
+png("plot2.png", bg="transparent")
 
 # do plot
 with(dfSubset, plot(DateAndTime, Global_active_power, xlab="", ylab="Global Active Power (kilowatts)", type="l"))

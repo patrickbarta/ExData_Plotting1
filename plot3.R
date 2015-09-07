@@ -43,7 +43,7 @@ if (file.exists(dfSubsetFile)) {
 
 # make the plot
 # open png device
-png("plot3.png")
+png("plot3.png", bg="transparent")
 
 # do plot
 with(dfSubset, plot(DateAndTime, Sub_metering_1, type="l", xlab="", ylab="Energy sub metering"))

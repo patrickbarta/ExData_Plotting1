@@ -43,7 +43,7 @@ if (file.exists(dfSubsetFile)) {
 
 # make the plot
 # open png device
-png("plot4.png")
+png("plot4.png", bg="transparent")
 
 # 2 x 2 matrix of plots
 par(mfcol=c(2,2))

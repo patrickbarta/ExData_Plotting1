@@ -43,7 +43,7 @@ if (file.exists(dfSubsetFile)) {
 
 # make the plot
 # open png device
-png("plot1.png")
+png("plot1.png", bg="transparent")
 
 # do plot
 with(dfSubset, hist(Global_active_power, col="red", main="Global Active Power", xlab="Global Active Power (kilowatts)"))
