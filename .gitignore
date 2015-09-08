@@ -11,6 +11,10 @@
 R.Rproj
 .Rproj.user
 
+# Existing stuff
+figure/
+README.md
+
 # Files for this project
 dfSubset.RData
 household_power_consumption.txt
